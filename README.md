@@ -18,6 +18,11 @@ npm install minidash
 
 ```js
 const minidash = require('minidash');
+
+export { checkedArr } from minidash;
+
+checkedArr([1, 2]); // true
+
 ```
 
 ## 기여하기
